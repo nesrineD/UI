@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:schemLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml">
+  <key xmlns="" id="d0" for="node" yfiles.type="nodegraphics" />
+  <key xmlns="" id="d1" for="node" attr.name="url" attr.type="string" />
+  <graph xmlns="" id="G" edgedefault="directed">
+    <node id="npile">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">npile</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1">http://node//pile</data>
+    </node>
+    <node id="nbrick">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">nbrick</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1">http://node//brick</data>
+    </node>
+    <node id="ncat">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">ncat</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1">http://node//cat</data>
+    </node>
+    <node id="njump">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">njump</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1">http://node//jump</data>
+    </node>
+    <node id="nblack">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">nblack</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1">http://node//black</data>
+    </node>
+    <edge id="efollow" source="n-1" target="n-1" />
+    <edge id="efollow" source="n-1" target="n-1" />
+    <edge id="efollow" source="n-1" target="n-1" />
+    <edge id="efollow" source="n-1" target="n-1" />
+    <edge id="echild" source="n-1" target="n-1" />
+    <edge id="echild" source="n-1" target="n-1" />
+    <edge id="echild" source="n-1" target="n-1" />
+    <edge id="echild" source="n-1" target="n-1" />
+  </graph>
+</graphml>

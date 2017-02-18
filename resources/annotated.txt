@@ -1,0 +1,1966 @@
+Sentence #1 (14 tokens):
+It is no secret that fans of Chinese food often find it addictive.
+[Text=It CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=secret CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=NN Lemma=secret NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Chinese CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC]
+[Text=food CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=VBP Lemma=find NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=addictive CharacterOffsetBegin=56 CharacterOffsetEnd=65 PartOfSpeech=JJ Lemma=addictive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT no) (NN secret))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (NP
+              (NP (NNS fans))
+              (PP (IN of)
+                (NP (JJ Chinese) (NN food))))
+            (ADVP (RB often))
+            (VP (VBP find)
+              (S
+                (NP (PRP it))
+                (ADJP (JJ addictive))))))))
+    (. .)))
+
+root(ROOT-0, secret-4)
+nsubj(secret-4, It-1)
+cop(secret-4, is-2)
+neg(secret-4, no-3)
+dobj(addictive-13, that-5)
+nsubj(find-11, fans-6)
+case(food-9, of-7)
+amod(food-9, Chinese-8)
+nmod:of(fans-6, food-9)
+advmod(find-11, often-10)
+acl:relcl(secret-4, find-11)
+nsubj(addictive-13, it-12)
+xcomp(find-11, addictive-13)
+punct(secret-4, .-14)
+
+Sentence #2 (19 tokens):
+They speak longingly of the numbing spice of Sichuan peppercorn or the sour herbs found in Yunnan cooking.
+[Text=They CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=speak CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBP Lemma=speak NamedEntityTag=O]
+[Text=longingly CharacterOffsetBegin=78 CharacterOffsetEnd=87 PartOfSpeech=RB Lemma=longingly NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=numbing CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=JJ Lemma=numbing NamedEntityTag=O]
+[Text=spice CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=NN Lemma=spice NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Sichuan CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=NNP Lemma=Sichuan NamedEntityTag=LOCATION]
+[Text=peppercorn CharacterOffsetBegin=120 CharacterOffsetEnd=130 PartOfSpeech=NN Lemma=peppercorn NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=sour CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=JJ Lemma=sour NamedEntityTag=O]
+[Text=herbs CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=NNS Lemma=herb NamedEntityTag=O]
+[Text=found CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=VBN Lemma=find NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Yunnan CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Yunnan NamedEntityTag=LOCATION]
+[Text=cooking CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=cooking NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP speak)
+      (ADVP (RB longingly))
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (DT the) (JJ numbing) (NN spice))
+            (PP (IN of)
+              (NP (NNP Sichuan) (NN peppercorn))))
+          (CC or)
+          (NP
+            (NP (DT the) (JJ sour) (NNS herbs))
+            (VP (VBN found)
+              (PP (IN in)
+                (NP (NNP Yunnan) (NN cooking))))))))
+    (. .)))
+
+root(ROOT-0, speak-2)
+nsubj(speak-2, They-1)
+advmod(speak-2, longingly-3)
+case(spice-7, of-4)
+det(spice-7, the-5)
+amod(spice-7, numbing-6)
+nmod:of(speak-2, spice-7)
+case(peppercorn-10, of-8)
+compound(peppercorn-10, Sichuan-9)
+nmod:of(spice-7, peppercorn-10)
+cc(spice-7, or-11)
+det(herbs-14, the-12)
+amod(herbs-14, sour-13)
+conj:or(spice-7, herbs-14)
+acl(herbs-14, found-15)
+case(cooking-18, in-16)
+compound(cooking-18, Yunnan-17)
+nmod:in(found-15, cooking-18)
+punct(speak-2, .-19)
+
+Coreference set:
+	(2,1,[1,2]) -> (1,6,[6,10]), that is: "They" -> "fans of Chinese food"
+Sentence #1 (29 tokens):
+At least 36 restaurants in China tried to take that addictive quality one step further, and now have found themselves on the wrong side of the law.
+[Text=At CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=least CharacterOffsetBegin=3 CharacterOffsetEnd=8 PartOfSpeech=JJS Lemma=least NamedEntityTag=O]
+[Text=36 CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=CD Lemma=36 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>=36.0]
+[Text=restaurants CharacterOffsetBegin=12 CharacterOffsetEnd=23 PartOfSpeech=NNS Lemma=restaurant NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=China CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION]
+[Text=tried CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=VBD Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=addictive CharacterOffsetBegin=52 CharacterOffsetEnd=61 PartOfSpeech=JJ Lemma=addictive NamedEntityTag=O]
+[Text=quality CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=NN Lemma=quality NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=step CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=NN Lemma=step NamedEntityTag=O]
+[Text=further CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=RBR Lemma=further NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=have CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=found CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=VBN Lemma=find NamedEntityTag=O]
+[Text=themselves CharacterOffsetBegin=107 CharacterOffsetEnd=117 PartOfSpeech=PRP Lemma=themselves NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=wrong CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=JJ Lemma=wrong NamedEntityTag=O]
+[Text=side CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=NN Lemma=side NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=law CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=NN Lemma=law NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP
+        (QP (IN At) (JJS least) (CD 36))
+        (NNS restaurants))
+      (PP (IN in)
+        (NP (NNP China))))
+    (VP
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB take)
+              (NP (DT that) (JJ addictive) (NN quality))
+              (ADVP
+                (NP (CD one) (NN step))
+                (RBR further))))))
+      (, ,)
+      (CC and)
+      (VP
+        (ADVP (RB now))
+        (VBP have)
+        (VP (VBN found)
+          (NP (PRP themselves))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (JJ wrong) (NN side))
+              (PP (IN of)
+                (NP (DT the) (NN law))))))))
+    (. .)))
+
+root(ROOT-0, tried-7)
+case(least-2, At-1)
+nmod:npmod(36-3, least-2)
+nummod(restaurants-4, 36-3)
+nsubj(tried-7, restaurants-4)
+case(China-6, in-5)
+nmod:in(restaurants-4, China-6)
+mark(take-9, to-8)
+xcomp(tried-7, take-9)
+det(quality-12, that-10)
+amod(quality-12, addictive-11)
+dobj(take-9, quality-12)
+nummod(step-14, one-13)
+nmod:npmod(further-15, step-14)
+advmod(take-9, further-15)
+punct(tried-7, ,-16)
+cc(tried-7, and-17)
+advmod(found-20, now-18)
+aux(found-20, have-19)
+conj:and(tried-7, found-20)
+dobj(found-20, themselves-21)
+case(side-25, on-22)
+det(side-25, the-23)
+amod(side-25, wrong-24)
+nmod:on(found-20, side-25)
+case(law-28, of-26)
+det(law-28, the-27)
+nmod:of(side-25, law-28)
+punct(tried-7, .-29)
+
+Sentence #2 (35 tokens):
+They were investigated in the past week by the authorities for adding poppy capsules and other illegal ingredients to food, according to a report on Friday by Xinhua, the state-run news agency.
+[Text=They CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=investigated CharacterOffsetBegin=158 CharacterOffsetEnd=170 PartOfSpeech=VBN Lemma=investigate NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PREV_IMMEDIATE P1W Timex=<TIMEX3 alt_value="PREV_IMMEDIATE P1W" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">the past week</TIMEX3>]
+[Text=past CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PREV_IMMEDIATE P1W Timex=<TIMEX3 alt_value="PREV_IMMEDIATE P1W" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">the past week</TIMEX3>]
+[Text=week CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=week NamedEntityTag=DATE NormalizedNamedEntityTag=PREV_IMMEDIATE P1W Timex=<TIMEX3 alt_value="PREV_IMMEDIATE P1W" anchorTimeID="t0" temporalFunction="true" tid="t2" type="DATE" valueFromFunction="tf0">the past week</TIMEX3>]
+[Text=by CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=authorities CharacterOffsetBegin=195 CharacterOffsetEnd=206 PartOfSpeech=NNS Lemma=authority NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=adding CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=VBG Lemma=add NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=capsules CharacterOffsetBegin=224 CharacterOffsetEnd=232 PartOfSpeech=NNS Lemma=capsule NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=illegal CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=JJ Lemma=illegal NamedEntityTag=O]
+[Text=ingredients CharacterOffsetBegin=251 CharacterOffsetEnd=262 PartOfSpeech=NNS Lemma=ingredient NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=according CharacterOffsetBegin=272 CharacterOffsetEnd=281 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=report CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NN Lemma=report NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Friday CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NNP Lemma=Friday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-5 Timex=<TIMEX3 tid="t3" type="DATE" value="XXXX-WXX-5">Friday</TIMEX3>]
+[Text=by CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Xinhua CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NNP Lemma=Xinhua NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=state-run CharacterOffsetBegin=319 CharacterOffsetEnd=328 PartOfSpeech=JJ Lemma=state-run NamedEntityTag=O]
+[Text=news CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=NN Lemma=news NamedEntityTag=O]
+[Text=agency CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=NN Lemma=agency NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD were)
+      (VP (VBN investigated)
+        (PP (IN in)
+          (NP (DT the) (JJ past) (NN week)))
+        (PP (IN by)
+          (NP (DT the) (NNS authorities)))
+        (PP (IN for)
+          (S
+            (VP (VBG adding)
+              (NP
+                (NP (NN poppy) (NNS capsules))
+                (CC and)
+                (NP (JJ other) (JJ illegal) (NNS ingredients)))
+              (PP (TO to)
+                (NP (NN food))))))
+        (, ,)
+        (PP (VBG according)
+          (PP (TO to)
+            (NP
+              (NP (DT a) (NN report))
+              (PP (IN on)
+                (NP
+                  (NP (NNP Friday))
+                  (PP (IN by)
+                    (NP
+                      (NP (NNP Xinhua))
+                      (, ,)
+                      (NP (DT the) (JJ state-run) (NN news) (NN agency)))))))))))
+    (. .)))
+
+root(ROOT-0, investigated-3)
+nsubjpass(investigated-3, They-1)
+auxpass(investigated-3, were-2)
+case(week-7, in-4)
+det(week-7, the-5)
+amod(week-7, past-6)
+nmod:in(investigated-3, week-7)
+case(authorities-10, by-8)
+det(authorities-10, the-9)
+nmod:agent(investigated-3, authorities-10)
+mark(adding-12, for-11)
+advcl(investigated-3, adding-12)
+compound(capsules-14, poppy-13)
+dobj(adding-12, capsules-14)
+cc(capsules-14, and-15)
+amod(ingredients-18, other-16)
+amod(ingredients-18, illegal-17)
+conj:and(capsules-14, ingredients-18)
+case(food-20, to-19)
+nmod:to(adding-12, food-20)
+punct(investigated-3, ,-21)
+case(report-25, according-22)
+mwe(according-22, to-23)
+det(report-25, a-24)
+nmod:according_to(investigated-3, report-25)
+case(Friday-27, on-26)
+nmod:on(report-25, Friday-27)
+case(Xinhua-29, by-28)
+nmod:by(Friday-27, Xinhua-29)
+punct(Xinhua-29, ,-30)
+det(agency-34, the-31)
+amod(agency-34, state-run-32)
+compound(agency-34, news-33)
+appos(Xinhua-29, agency-34)
+punct(investigated-3, .-35)
+
+Coreference set:
+	(2,1,[1,2]) -> (1,21,[21,22]), that is: "They" -> "themselves"
+Coreference set:
+	(2,34,[31,35]) -> (2,29,[29,30]), that is: "the state-run news agency" -> "Xinhua"
+Sentence #1 (41 tokens):
+The poppy capsule is made from the dried pericarp of the ripe fruit of an opium poppy plant, and it has more than 20 types of alkaloids, including those found in morphine and cocaine, the report said.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=capsule CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=NN Lemma=capsule NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=dried CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=VBN Lemma=dry NamedEntityTag=O]
+[Text=pericarp CharacterOffsetBegin=41 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=pericarp NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ripe CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=JJ Lemma=ripe NamedEntityTag=O]
+[Text=fruit CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NN Lemma=fruit NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=opium CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN Lemma=opium NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=plant CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN Lemma=plant NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=20 CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=CD Lemma=20 NamedEntityTag=NUMBER NormalizedNamedEntityTag=>20.0]
+[Text=types CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NNS Lemma=type NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=alkaloids CharacterOffsetBegin=126 CharacterOffsetEnd=135 PartOfSpeech=NNS Lemma=alkaloid NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=including CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=VBG Lemma=include NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=found CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=VBN Lemma=find NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=morphine CharacterOffsetBegin=162 CharacterOffsetEnd=170 PartOfSpeech=NN Lemma=morphine NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=cocaine CharacterOffsetBegin=175 CharacterOffsetEnd=182 PartOfSpeech=NN Lemma=cocaine NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=report CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NN Lemma=report NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (S
+        (NP (DT The) (NN poppy) (NN capsule))
+        (VP (VBZ is)
+          (VP (VBN made)
+            (PP (IN from)
+              (NP
+                (NP (DT the) (VBN dried) (NN pericarp))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the)
+                      (ADJP (JJ ripe))
+                      (NN fruit))
+                    (PP (IN of)
+                      (NP (DT an) (NN opium) (NN poppy) (NN plant))))))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP it))
+        (VP (VBZ has)
+          (NP
+            (NP
+              (QP (JJR more) (IN than) (CD 20))
+              (NNS types))
+            (PP (IN of)
+              (NP (NNS alkaloids))))
+          (, ,)
+          (PP (VBG including)
+            (NP
+              (NP (DT those))
+              (VP (VBN found)
+                (PP (IN in)
+                  (NP (NN morphine)
+                    (CC and)
+                    (NN cocaine)))))))))
+    (, ,)
+    (NP (DT the) (NN report))
+    (VP (VBD said))
+    (. .)))
+
+root(ROOT-0, said-40)
+det(capsule-3, The-1)
+compound(capsule-3, poppy-2)
+nsubjpass(made-5, capsule-3)
+auxpass(made-5, is-4)
+ccomp(said-40, made-5)
+case(pericarp-9, from-6)
+det(pericarp-9, the-7)
+amod(pericarp-9, dried-8)
+nmod:from(made-5, pericarp-9)
+case(fruit-13, of-10)
+det(fruit-13, the-11)
+amod(fruit-13, ripe-12)
+nmod:of(pericarp-9, fruit-13)
+case(plant-18, of-14)
+det(plant-18, an-15)
+compound(plant-18, opium-16)
+compound(plant-18, poppy-17)
+nmod:of(fruit-13, plant-18)
+punct(made-5, ,-19)
+cc(made-5, and-20)
+nsubj(has-22, it-21)
+conj:and(made-5, has-22)
+advmod(20-25, more-23)
+mwe(more-23, than-24)
+nummod(types-26, 20-25)
+dobj(has-22, types-26)
+case(alkaloids-28, of-27)
+nmod:of(types-26, alkaloids-28)
+punct(has-22, ,-29)
+case(those-31, including-30)
+nmod:including(has-22, those-31)
+acl(those-31, found-32)
+case(morphine-34, in-33)
+nmod:in(found-32, morphine-34)
+cc(morphine-34, and-35)
+conj:and(morphine-34, cocaine-36)
+punct(said-40, ,-37)
+det(report-39, the-38)
+nsubj(said-40, report-39)
+punct(said-40, .-41)
+
+Sentence #2 (16 tokens):
+It is used in the Chinese medicine industry, but it is illegal in cooking.
+[Text=It CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Chinese CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC]
+[Text=medicine CharacterOffsetBegin=227 CharacterOffsetEnd=235 PartOfSpeech=NN Lemma=medicine NamedEntityTag=O]
+[Text=industry CharacterOffsetBegin=236 CharacterOffsetEnd=244 PartOfSpeech=NN Lemma=industry NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=illegal CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=JJ Lemma=illegal NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=cooking CharacterOffsetBegin=267 CharacterOffsetEnd=274 PartOfSpeech=NN Lemma=cooking NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is)
+        (VP (VBN used)
+          (PP (IN in)
+            (NP (DT the) (JJ Chinese) (NN medicine) (NN industry))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADJP (JJ illegal)
+          (PP (IN in)
+            (NP (NN cooking))))))
+    (. .)))
+
+root(ROOT-0, used-3)
+nsubjpass(used-3, It-1)
+auxpass(used-3, is-2)
+case(industry-8, in-4)
+det(industry-8, the-5)
+amod(industry-8, Chinese-6)
+compound(industry-8, medicine-7)
+nmod:in(used-3, industry-8)
+punct(used-3, ,-9)
+cc(used-3, but-10)
+nsubj(illegal-13, it-11)
+cop(illegal-13, is-12)
+conj:but(used-3, illegal-13)
+case(cooking-15, in-14)
+nmod:in(illegal-13, cooking-15)
+punct(used-3, .-16)
+
+Coreference set:
+	(1,21,[21,22]) -> (1,3,[1,4]), that is: "it" -> "The poppy capsule"
+	(2,1,[1,2]) -> (1,3,[1,4]), that is: "It" -> "The poppy capsule"
+	(2,11,[11,12]) -> (1,3,[1,4]), that is: "it" -> "The poppy capsule"
+Sentence #1 (35 tokens):
+Transporting, buying, selling, storing or using poppy capsules in food can result in up to 15 days in detention or a fine of up to 3,000 renminbi, or $455.
+[Text=Transporting CharacterOffsetBegin=0 CharacterOffsetEnd=12 PartOfSpeech=VBG Lemma=transport NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=buying CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=VBG Lemma=buy NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=selling CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=VBG Lemma=sell NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=storing CharacterOffsetBegin=31 CharacterOffsetEnd=38 PartOfSpeech=VBG Lemma=store NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=JJ Lemma=poppy NamedEntityTag=O]
+[Text=capsules CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=NNS Lemma=capsule NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=result CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=VB Lemma=result NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=RB Lemma=up NamedEntityTag=DURATION NormalizedNamedEntityTag=P15D Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P15D">up to 15 days</TIMEX3>]
+[Text=to CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=TO Lemma=to NamedEntityTag=DURATION NormalizedNamedEntityTag=P15D Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P15D">up to 15 days</TIMEX3>]
+[Text=15 CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=CD Lemma=15 NamedEntityTag=DURATION NormalizedNamedEntityTag=P15D Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P15D">up to 15 days</TIMEX3>]
+[Text=days CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=P15D Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t1" type="DURATION" value="P15D">up to 15 days</TIMEX3>]
+[Text=in CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=detention CharacterOffsetBegin=102 CharacterOffsetEnd=111 PartOfSpeech=NN Lemma=detention NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fine CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=NN Lemma=fine NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=RB Lemma=up NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=3,000 CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=CD Lemma=3,000 NamedEntityTag=NUMBER NormalizedNamedEntityTag=<=3000.0]
+[Text=renminbi CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NN Lemma=renminbi NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=$ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$455.0]
+[Text=455 CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CD Lemma=455 NamedEntityTag=MONEY NormalizedNamedEntityTag=$455.0]
+[Text=. CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (VP
+        (VP (VBG Transporting))
+        (, ,)
+        (VP (VBG buying))
+        (, ,)
+        (VP (VBG selling))
+        (, ,)
+        (VP (VBG storing))
+        (CC or)
+        (VP (VBG using)
+          (NP (JJ poppy) (NNS capsules))
+          (PP (IN in)
+            (NP (NN food))))))
+    (VP (MD can)
+      (VP (VB result)
+        (PP (IN in)
+          (NP
+            (NP
+              (NP
+                (QP (RB up) (TO to) (CD 15))
+                (NNS days))
+              (PP (IN in)
+                (NP (NN detention))))
+            (CC or)
+            (NP
+              (NP
+                (NP (DT a) (NN fine))
+                (PP (IN of)
+                  (NP
+                    (QP (RB up) (TO to) (CD 3,000))
+                    (NN renminbi))))
+              (, ,)
+              (CC or)
+              (NP ($ $) (CD 455)))))))
+    (. .)))
+
+root(ROOT-0, result-15)
+csubj(result-15, Transporting-1)
+punct(Transporting-1, ,-2)
+conj:or(Transporting-1, buying-3)
+punct(Transporting-1, ,-4)
+conj:or(Transporting-1, selling-5)
+punct(Transporting-1, ,-6)
+conj:or(Transporting-1, storing-7)
+cc(Transporting-1, or-8)
+conj:or(Transporting-1, using-9)
+amod(capsules-11, poppy-10)
+dobj(using-9, capsules-11)
+case(food-13, in-12)
+nmod:in(using-9, food-13)
+aux(result-15, can-14)
+case(days-20, in-16)
+advmod(15-19, up-17)
+dep(15-19, to-18)
+nummod(days-20, 15-19)
+nmod:in(result-15, days-20)
+case(detention-22, in-21)
+nmod:in(days-20, detention-22)
+cc(days-20, or-23)
+det(fine-25, a-24)
+conj:or(days-20, fine-25)
+case(renminbi-30, of-26)
+advmod(3,000-29, up-27)
+dep(3,000-29, to-28)
+nummod(renminbi-30, 3,000-29)
+nmod:of(fine-25, renminbi-30)
+punct(fine-25, ,-31)
+cc(fine-25, or-32)
+dep(455-34, $-33)
+conj:or(fine-25, 455-34)
+punct(result-15, .-35)
+
+Sentence #1 (39 tokens):
+The latest case came to light on Wednesday, when officials investigated a noodle shop in the city of Yulin in Shaanxi Province for adding poppy capsules to mutton noodles, Xinhua reported, citing a local newspaper.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=latest CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O]
+[Text=case CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=NN Lemma=case NamedEntityTag=O]
+[Text=came CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=VBD Lemma=come NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=light CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=NN Lemma=light NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Wednesday CharacterOffsetBegin=33 CharacterOffsetEnd=42 PartOfSpeech=NNP Lemma=Wednesday NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-WXX-3 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-WXX-3">Wednesday</TIMEX3>]
+[Text=, CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=officials CharacterOffsetBegin=49 CharacterOffsetEnd=58 PartOfSpeech=NNS Lemma=official NamedEntityTag=O]
+[Text=investigated CharacterOffsetBegin=59 CharacterOffsetEnd=71 PartOfSpeech=VBD Lemma=investigate NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=noodle CharacterOffsetBegin=74 CharacterOffsetEnd=80 PartOfSpeech=NN Lemma=noodle NamedEntityTag=O]
+[Text=shop CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=NN Lemma=shop NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=city CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NN Lemma=city NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Yulin CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=NNP Lemma=Yulin NamedEntityTag=LOCATION]
+[Text=in CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Shaanxi CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=NNP Lemma=Shaanxi NamedEntityTag=LOCATION]
+[Text=Province CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=NNP Lemma=Province NamedEntityTag=LOCATION]
+[Text=for CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=adding CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=VBG Lemma=add NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=capsules CharacterOffsetBegin=144 CharacterOffsetEnd=152 PartOfSpeech=NNS Lemma=capsule NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=mutton CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=VB Lemma=mutton NamedEntityTag=O]
+[Text=noodles CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=NNS Lemma=noodle NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Xinhua CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=NNP Lemma=Xinhua NamedEntityTag=ORGANIZATION]
+[Text=reported CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=VBD Lemma=report NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=citing CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=VBG Lemma=cite NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=local CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=JJ Lemma=local NamedEntityTag=O]
+[Text=newspaper CharacterOffsetBegin=204 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=newspaper NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJS latest) (NN case))
+      (VP (VBD came)
+        (PP (TO to)
+          (NP (NN light)))
+        (PP (IN on)
+          (NP (NNP Wednesday)))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (NNS officials))
+            (VP (VBD investigated)
+              (NP (DT a) (NN noodle) (NN shop))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN city))
+                  (PP (IN of)
+                    (NP (NNP Yulin)))))
+              (PP (IN in)
+                (NP
+                  (NP (NNP Shaanxi) (NNP Province))
+                  (PP (IN for)
+                    (S
+                      (VP (VBG adding)
+                        (NP (NN poppy) (NNS capsules))
+                        (S
+                          (VP (TO to)
+                            (VP (VB mutton)
+                              (NP (NNS noodles)))))))))))))))
+    (, ,)
+    (NP (NNP Xinhua))
+    (VP (VBD reported) (, ,)
+      (S
+        (VP (VBG citing)
+          (NP (DT a) (JJ local) (NN newspaper)))))
+    (. .)))
+
+root(ROOT-0, reported-33)
+det(case-3, The-1)
+amod(case-3, latest-2)
+nsubj(came-4, case-3)
+ccomp(reported-33, came-4)
+case(light-6, to-5)
+nmod:to(came-4, light-6)
+case(Wednesday-8, on-7)
+nmod:on(came-4, Wednesday-8)
+punct(came-4, ,-9)
+advmod(investigated-12, when-10)
+nsubj(investigated-12, officials-11)
+advcl(came-4, investigated-12)
+det(shop-15, a-13)
+compound(shop-15, noodle-14)
+dobj(investigated-12, shop-15)
+case(city-18, in-16)
+det(city-18, the-17)
+nmod:in(investigated-12, city-18)
+case(Yulin-20, of-19)
+nmod:of(city-18, Yulin-20)
+case(Province-23, in-21)
+compound(Province-23, Shaanxi-22)
+nmod:in(investigated-12, Province-23)
+mark(adding-25, for-24)
+acl(Province-23, adding-25)
+compound(capsules-27, poppy-26)
+dobj(adding-25, capsules-27)
+mark(mutton-29, to-28)
+advcl(adding-25, mutton-29)
+dobj(mutton-29, noodles-30)
+punct(reported-33, ,-31)
+nsubj(reported-33, Xinhua-32)
+punct(reported-33, ,-34)
+xcomp(reported-33, citing-35)
+det(newspaper-38, a-36)
+amod(newspaper-38, local-37)
+dobj(citing-35, newspaper-38)
+punct(reported-33, .-39)
+
+Sentence #1 (27 tokens):
+Officials have found that poppy capsules are most often used by small restaurants serving heavily flavored food like hot pot, grilled fish and fried chicken.
+[Text=Officials CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNS Lemma=official NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=found CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=VBN Lemma=find NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=capsules CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NNS Lemma=capsule NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=small CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=JJ Lemma=small NamedEntityTag=O]
+[Text=restaurants CharacterOffsetBegin=70 CharacterOffsetEnd=81 PartOfSpeech=NNS Lemma=restaurant NamedEntityTag=O]
+[Text=serving CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=VBG Lemma=serve NamedEntityTag=O]
+[Text=heavily CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=RB Lemma=heavily NamedEntityTag=O]
+[Text=flavored CharacterOffsetBegin=98 CharacterOffsetEnd=106 PartOfSpeech=JJ Lemma=flavored NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=hot CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=JJ Lemma=hot NamedEntityTag=O]
+[Text=pot CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=NN Lemma=pot NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=grilled CharacterOffsetBegin=126 CharacterOffsetEnd=133 PartOfSpeech=JJ Lemma=grilled NamedEntityTag=O]
+[Text=fish CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=NN Lemma=fish NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=fried CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=VBD Lemma=fry NamedEntityTag=O]
+[Text=chicken CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=NN Lemma=chicken NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNS Officials))
+    (VP (VBP have)
+      (VP (VBN found)
+        (SBAR (IN that)
+          (S
+            (NP (NN poppy) (NNS capsules))
+            (VP (VBP are)
+              (ADVP (RBS most) (RB often))
+              (VP (VBN used)
+                (PP (IN by)
+                  (NP
+                    (NP (JJ small) (NNS restaurants))
+                    (VP (VBG serving)
+                      (NP
+                        (ADJP (RB heavily) (JJ flavored))
+                        (NN food))
+                      (PP (IN like)
+                        (NP
+                          (NP (JJ hot) (NN pot))
+                          (, ,)
+                          (NP
+                            (NP (JJ grilled) (NN fish))
+                            (CC and)
+                            (NP (VBD fried) (NN chicken))))))))))))))
+    (. .)))
+
+root(ROOT-0, found-3)
+nsubj(found-3, Officials-1)
+aux(found-3, have-2)
+mark(used-10, that-4)
+compound(capsules-6, poppy-5)
+nsubjpass(used-10, capsules-6)
+auxpass(used-10, are-7)
+advmod(often-9, most-8)
+advmod(used-10, often-9)
+ccomp(found-3, used-10)
+case(restaurants-13, by-11)
+amod(restaurants-13, small-12)
+nmod:agent(used-10, restaurants-13)
+acl(restaurants-13, serving-14)
+advmod(flavored-16, heavily-15)
+amod(food-17, flavored-16)
+dobj(serving-14, food-17)
+case(pot-20, like-18)
+amod(pot-20, hot-19)
+nmod:like(serving-14, pot-20)
+punct(pot-20, ,-21)
+amod(fish-23, grilled-22)
+appos(pot-20, fish-23)
+cc(fish-23, and-24)
+amod(chicken-26, fried-25)
+conj:and(fish-23, chicken-26)
+punct(found-3, .-27)
+
+Sentence #2 (41 tokens):
+The Xinhua report quoted a chef at a hot pot restaurant in Sichuan Province who said cooks used to grind the poppy capsules into powder and add it to soup base, but that was easy for investigators to detect.
+[Text=The CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Xinhua CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=NNP Lemma=Xinhua NamedEntityTag=ORGANIZATION]
+[Text=report CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=report NamedEntityTag=O]
+[Text=quoted CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=VBD Lemma=quote NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=chef CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN Lemma=chef NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=hot CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=JJ Lemma=hot NamedEntityTag=O]
+[Text=pot CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NN Lemma=pot NamedEntityTag=O]
+[Text=restaurant CharacterOffsetBegin=203 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=restaurant NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Sichuan CharacterOffsetBegin=217 CharacterOffsetEnd=224 PartOfSpeech=NNP Lemma=Sichuan NamedEntityTag=LOCATION]
+[Text=Province CharacterOffsetBegin=225 CharacterOffsetEnd=233 PartOfSpeech=NNP Lemma=Province NamedEntityTag=LOCATION]
+[Text=who CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=cooks CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NNS Lemma=cook NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=249 CharacterOffsetEnd=253 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=grind CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=VB Lemma=grind NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=capsules CharacterOffsetBegin=273 CharacterOffsetEnd=281 PartOfSpeech=NNS Lemma=capsule NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=282 CharacterOffsetEnd=286 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=powder CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NN Lemma=powder NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=add CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=VB Lemma=add NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=soup CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=NN Lemma=soup NamedEntityTag=O]
+[Text=base CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=NN Lemma=base NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=easy CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=JJ Lemma=easy NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=investigators CharacterOffsetBegin=341 CharacterOffsetEnd=354 PartOfSpeech=NNS Lemma=investigator NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=detect CharacterOffsetBegin=358 CharacterOffsetEnd=364 PartOfSpeech=VB Lemma=detect NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Xinhua) (NN report))
+      (VP (VBD quoted)
+        (NP (DT a) (NN chef))
+        (PP (IN at)
+          (NP (DT a) (JJ hot) (NN pot) (NN restaurant)))
+        (PP (IN in)
+          (NP
+            (NP (NNP Sichuan) (NNP Province))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD said)
+                  (NP
+                    (NP (NNS cooks))
+                    (VP (VBN used)
+                      (S
+                        (VP (TO to)
+                          (VP
+                            (VP (VB grind)
+                              (NP (DT the) (NN poppy) (NNS capsules))
+                              (PP (IN into)
+                                (NP (NN powder))))
+                            (CC and)
+                            (VP (VB add)
+                              (NP (PRP it))
+                              (PP (TO to)
+                                (NP (NN soup) (NN base))))))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT that))
+      (VP (VBD was)
+        (ADJP (JJ easy)
+          (PP (IN for)
+            (NP (NNS investigators))))
+        (S
+          (VP (TO to)
+            (VP (VB detect))))))
+    (. .)))
+
+root(ROOT-0, quoted-4)
+det(report-3, The-1)
+compound(report-3, Xinhua-2)
+nsubj(quoted-4, report-3)
+det(chef-6, a-5)
+dobj(quoted-4, chef-6)
+case(restaurant-11, at-7)
+det(restaurant-11, a-8)
+amod(restaurant-11, hot-9)
+compound(restaurant-11, pot-10)
+nmod:at(quoted-4, restaurant-11)
+case(Province-14, in-12)
+compound(Province-14, Sichuan-13)
+nmod:in(quoted-4, Province-14)
+nsubj(said-16, who-15)
+acl:relcl(Province-14, said-16)
+dobj(said-16, cooks-17)
+acl(cooks-17, used-18)
+mark(grind-20, to-19)
+xcomp(used-18, grind-20)
+det(capsules-23, the-21)
+compound(capsules-23, poppy-22)
+dobj(grind-20, capsules-23)
+case(powder-25, into-24)
+nmod:into(grind-20, powder-25)
+cc(grind-20, and-26)
+conj:and(grind-20, add-27)
+dobj(add-27, it-28)
+case(base-31, to-29)
+compound(base-31, soup-30)
+nmod:to(add-27, base-31)
+punct(quoted-4, ,-32)
+cc(quoted-4, but-33)
+nsubj(easy-36, that-34)
+cop(easy-36, was-35)
+conj:but(quoted-4, easy-36)
+case(investigators-38, for-37)
+nmod:for(easy-36, investigators-38)
+mark(detect-40, to-39)
+xcomp(easy-36, detect-40)
+punct(quoted-4, .-41)
+
+Sentence #3 (23 tokens):
+So the cooks began adding the powder to MSG, or monosodium glutamate, and put it in sauce used by customers.
+[Text=So CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=cooks CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=NNS Lemma=cook NamedEntityTag=O]
+[Text=began CharacterOffsetBegin=379 CharacterOffsetEnd=384 PartOfSpeech=VBD Lemma=begin NamedEntityTag=O]
+[Text=adding CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=VBG Lemma=add NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=powder CharacterOffsetBegin=396 CharacterOffsetEnd=402 PartOfSpeech=NN Lemma=powder NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=MSG CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=NNP Lemma=MSG NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=monosodium CharacterOffsetBegin=414 CharacterOffsetEnd=424 PartOfSpeech=NN Lemma=monosodium NamedEntityTag=O]
+[Text=glutamate CharacterOffsetBegin=425 CharacterOffsetEnd=434 PartOfSpeech=NN Lemma=glutamate NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=VBD Lemma=put NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=sauce CharacterOffsetBegin=450 CharacterOffsetEnd=455 PartOfSpeech=NN Lemma=sauce NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=456 CharacterOffsetEnd=460 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=customers CharacterOffsetBegin=464 CharacterOffsetEnd=473 PartOfSpeech=NNS Lemma=customer NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (IN So)
+    (NP (DT the) (NNS cooks))
+    (VP
+      (VP (VBD began)
+        (S
+          (VP (VBG adding)
+            (NP (DT the) (NN powder))
+            (PP (TO to)
+              (NP (NNP MSG) (, ,)
+                (CC or)
+                (NN monosodium) (NN glutamate))))))
+      (, ,)
+      (CC and)
+      (VP (VBD put)
+        (NP (PRP it))
+        (PP (IN in)
+          (NP
+            (NP (NN sauce))
+            (VP (VBN used)
+              (PP (IN by)
+                (NP (NNS customers))))))))
+    (. .)))
+
+root(ROOT-0, began-4)
+dep(began-4, So-1)
+det(cooks-3, the-2)
+nsubj(began-4, cooks-3)
+xcomp(began-4, adding-5)
+det(powder-7, the-6)
+dobj(adding-5, powder-7)
+case(MSG-9, to-8)
+nmod:to(adding-5, MSG-9)
+punct(MSG-9, ,-10)
+cc(MSG-9, or-11)
+compound(glutamate-13, monosodium-12)
+conj:or(MSG-9, glutamate-13)
+punct(began-4, ,-14)
+cc(began-4, and-15)
+conj:and(began-4, put-16)
+dobj(put-16, it-17)
+case(sauce-19, in-18)
+nmod:in(put-16, sauce-19)
+acl(sauce-19, used-20)
+case(customers-22, by-21)
+nmod:by(used-20, customers-22)
+punct(began-4, .-23)
+
+Coreference set:
+	(1,6,[5,7]) -> (2,23,[21,24]), that is: "poppy capsules" -> "the poppy capsules"
+Coreference set:
+	(2,28,[28,29]) -> (2,3,[1,4]), that is: "it" -> "The Xinhua report"
+Coreference set:
+	(2,17,[17,32]) -> (3,3,[2,4]), that is: "cooks used to grind the poppy capsules into powder and add it to soup base" -> "the cooks"
+Coreference set:
+	(2,34,[34,35]) -> (2,31,[30,32]), that is: "that" -> "soup base"
+Coreference set:
+	(3,17,[17,18]) -> (3,7,[6,8]), that is: "it" -> "the powder"
+Sentence #1 (21 tokens):
+Poppy capsules are quietly sold in street markets that have cooking ingredients or those that specialize in Chinese medicine products.
+[Text=Poppy CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Poppy NamedEntityTag=O]
+[Text=capsules CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=NNS Lemma=capsule NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=quietly CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=RB Lemma=quietly NamedEntityTag=O]
+[Text=sold CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=VBN Lemma=sell NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=street CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=NN Lemma=street NamedEntityTag=O]
+[Text=markets CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=NNS Lemma=market NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=cooking CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=JJ Lemma=cooking NamedEntityTag=O]
+[Text=ingredients CharacterOffsetBegin=68 CharacterOffsetEnd=79 PartOfSpeech=NNS Lemma=ingredient NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=specialize CharacterOffsetBegin=94 CharacterOffsetEnd=104 PartOfSpeech=VBP Lemma=specialize NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Chinese CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC]
+[Text=medicine CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=NN Lemma=medicine NamedEntityTag=O]
+[Text=products CharacterOffsetBegin=125 CharacterOffsetEnd=133 PartOfSpeech=NNS Lemma=product NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Poppy) (NNS capsules))
+    (VP (VBP are)
+      (ADVP (RB quietly))
+      (VP (VBN sold)
+        (PP (IN in)
+          (NP
+            (NP (NN street) (NNS markets))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP have)
+                  (NP
+                    (NP (JJ cooking) (NNS ingredients))
+                    (CC or)
+                    (NP
+                      (NP (DT those))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (VP (VBP specialize)
+                            (PP (IN in)
+                              (NP (JJ Chinese) (NN medicine) (NNS products)))))))))))))))
+    (. .)))
+
+root(ROOT-0, sold-5)
+compound(capsules-2, Poppy-1)
+nsubjpass(sold-5, capsules-2)
+auxpass(sold-5, are-3)
+advmod(sold-5, quietly-4)
+case(markets-8, in-6)
+compound(markets-8, street-7)
+nmod:in(sold-5, markets-8)
+nsubj(have-10, that-9)
+acl:relcl(markets-8, have-10)
+amod(ingredients-12, cooking-11)
+dobj(have-10, ingredients-12)
+cc(ingredients-12, or-13)
+conj:or(ingredients-12, those-14)
+nsubj(specialize-16, that-15)
+acl:relcl(those-14, specialize-16)
+case(products-20, in-17)
+amod(products-20, Chinese-18)
+compound(products-20, medicine-19)
+nmod:in(specialize-16, products-20)
+punct(sold-5, .-21)
+
+Sentence #1 (20 tokens):
+In recent years, Chinese officials have tried to end this practice several times and have announced nationwide crackdowns.
+[Text=In CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=3 CharacterOffsetEnd=9 PartOfSpeech=JJ Lemma=recent NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t1" type="DURATION" value="PXY">recent years</TIMEX3>]
+[Text=years CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 tid="t1" type="DURATION" value="PXY">recent years</TIMEX3>]
+[Text=, CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Chinese CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC]
+[Text=officials CharacterOffsetBegin=25 CharacterOffsetEnd=34 PartOfSpeech=NNS Lemma=official NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=tried CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VBN Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=VB Lemma=end NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=practice CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=practice NamedEntityTag=O]
+[Text=several CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=JJ Lemma=several NamedEntityTag=O]
+[Text=times CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=NNS Lemma=time NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=announced CharacterOffsetBegin=90 CharacterOffsetEnd=99 PartOfSpeech=VBN Lemma=announce NamedEntityTag=O]
+[Text=nationwide CharacterOffsetBegin=100 CharacterOffsetEnd=110 PartOfSpeech=JJ Lemma=nationwide NamedEntityTag=O]
+[Text=crackdowns CharacterOffsetBegin=111 CharacterOffsetEnd=121 PartOfSpeech=NNS Lemma=crackdown NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ recent) (NNS years)))
+    (, ,)
+    (NP (JJ Chinese) (NNS officials))
+    (VP
+      (VP (VBP have)
+        (VP (VBN tried)
+          (S
+            (VP (TO to)
+              (VP (VB end)
+                (NP (DT this) (NN practice))
+                (NP-TMP (JJ several) (NNS times)))))))
+      (CC and)
+      (VP (VBP have)
+        (VP (VBN announced)
+          (NP (JJ nationwide) (NNS crackdowns)))))
+    (. .)))
+
+root(ROOT-0, tried-8)
+case(years-3, In-1)
+amod(years-3, recent-2)
+nmod:in(tried-8, years-3)
+punct(tried-8, ,-4)
+amod(officials-6, Chinese-5)
+nsubj(tried-8, officials-6)
+aux(tried-8, have-7)
+mark(end-10, to-9)
+xcomp(tried-8, end-10)
+det(practice-12, this-11)
+dobj(end-10, practice-12)
+amod(times-14, several-13)
+nmod:tmod(end-10, times-14)
+cc(tried-8, and-15)
+aux(announced-17, have-16)
+conj:and(tried-8, announced-17)
+amod(crackdowns-19, nationwide-18)
+dobj(announced-17, crackdowns-19)
+punct(tried-8, .-20)
+
+Sentence #2 (39 tokens):
+In 2014, three central government agencies, including the Ministry of Public Security, issued a notice saying they would carry out field inspections across the country and adopt a “zero tolerance” policy toward violations.
+[Text=In CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=2014 CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t2" type="DATE" value="2014">2014</TIMEX3>]
+[Text=, CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=three CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=central CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=JJ Lemma=central NamedEntityTag=O]
+[Text=government CharacterOffsetBegin=146 CharacterOffsetEnd=156 PartOfSpeech=NN Lemma=government NamedEntityTag=O]
+[Text=agencies CharacterOffsetBegin=157 CharacterOffsetEnd=165 PartOfSpeech=NNS Lemma=agency NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=including CharacterOffsetBegin=167 CharacterOffsetEnd=176 PartOfSpeech=VBG Lemma=include NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Ministry CharacterOffsetBegin=181 CharacterOffsetEnd=189 PartOfSpeech=NNP Lemma=Ministry NamedEntityTag=ORGANIZATION]
+[Text=of CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN Lemma=of NamedEntityTag=ORGANIZATION]
+[Text=Public CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NNP Lemma=Public NamedEntityTag=ORGANIZATION]
+[Text=Security CharacterOffsetBegin=200 CharacterOffsetEnd=208 PartOfSpeech=NNP Lemma=Security NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=issued CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=VBD Lemma=issue NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=notice CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=NN Lemma=notice NamedEntityTag=O]
+[Text=saying CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=VBG Lemma=say NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=carry CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VB Lemma=carry NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=field CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN Lemma=field NamedEntityTag=O]
+[Text=inspections CharacterOffsetBegin=260 CharacterOffsetEnd=271 PartOfSpeech=NNS Lemma=inspection NamedEntityTag=O]
+[Text=across CharacterOffsetBegin=272 CharacterOffsetEnd=278 PartOfSpeech=IN Lemma=across NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=country CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=NN Lemma=country NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=adopt CharacterOffsetBegin=295 CharacterOffsetEnd=300 PartOfSpeech=VB Lemma=adopt NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=zero CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=CD Lemma=zero NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0]
+[Text=tolerance CharacterOffsetBegin=309 CharacterOffsetEnd=318 PartOfSpeech=NN Lemma=tolerance NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=policy CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=NN Lemma=policy NamedEntityTag=O]
+[Text=toward CharacterOffsetBegin=327 CharacterOffsetEnd=333 PartOfSpeech=IN Lemma=toward NamedEntityTag=O]
+[Text=violations CharacterOffsetBegin=334 CharacterOffsetEnd=344 PartOfSpeech=NNS Lemma=violation NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 2014)))
+    (, ,)
+    (NP
+      (NP (CD three) (JJ central) (NN government) (NNS agencies))
+      (, ,)
+      (PP (VBG including)
+        (NP
+          (NP (DT the) (NNP Ministry))
+          (PP (IN of)
+            (NP (NNP Public) (NNP Security)))))
+      (, ,))
+    (VP (VBD issued)
+      (NP (DT a) (NN notice))
+      (S
+        (VP (VBG saying)
+          (SBAR
+            (S
+              (NP (PRP they))
+              (VP (MD would)
+                (VP
+                  (VP (VB carry)
+                    (PRT (RP out))
+                    (NP (NN field) (NNS inspections))
+                    (PP (IN across)
+                      (NP (DT the) (NN country))))
+                  (CC and)
+                  (VP (VB adopt)
+                    (NP
+                      (NP (DT a) (`` ``)
+                        (NP (CD zero) (NN tolerance))
+                        ('' '') (NN policy))
+                      (PP (IN toward)
+                        (NP (NNS violations))))))))))))
+    (. .)))
+
+root(ROOT-0, issued-16)
+case(2014-2, In-1)
+nmod:in(issued-16, 2014-2)
+punct(issued-16, ,-3)
+nummod(agencies-7, three-4)
+amod(agencies-7, central-5)
+compound(agencies-7, government-6)
+nsubj(issued-16, agencies-7)
+punct(agencies-7, ,-8)
+case(Ministry-11, including-9)
+det(Ministry-11, the-10)
+nmod:including(agencies-7, Ministry-11)
+case(Security-14, of-12)
+compound(Security-14, Public-13)
+nmod:of(Ministry-11, Security-14)
+punct(agencies-7, ,-15)
+det(notice-18, a-17)
+dobj(issued-16, notice-18)
+xcomp(issued-16, saying-19)
+nsubj(carry-22, they-20)
+aux(carry-22, would-21)
+ccomp(saying-19, carry-22)
+compound:prt(carry-22, out-23)
+compound(inspections-25, field-24)
+dobj(carry-22, inspections-25)
+case(country-28, across-26)
+det(country-28, the-27)
+nmod:across(carry-22, country-28)
+cc(carry-22, and-29)
+conj:and(carry-22, adopt-30)
+det(policy-36, a-31)
+punct(policy-36, ``-32)
+nummod(tolerance-34, zero-33)
+compound(policy-36, tolerance-34)
+punct(policy-36, ''-35)
+dobj(adopt-30, policy-36)
+case(violations-38, toward-37)
+nmod:toward(policy-36, violations-38)
+punct(issued-16, .-39)
+
+Coreference set:
+	(2,20,[20,21]) -> (1,6,[5,7]), that is: "they" -> "Chinese officials"
+Sentence #1 (10 tokens):
+The Chinese food industry is regularly shaken by scandals.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Chinese CharacterOffsetBegin=4 CharacterOffsetEnd=11 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC]
+[Text=food CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=industry CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=NN Lemma=industry NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=regularly CharacterOffsetBegin=29 CharacterOffsetEnd=38 PartOfSpeech=RB Lemma=regularly NamedEntityTag=O]
+[Text=shaken CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBN Lemma=shake NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=scandals CharacterOffsetBegin=49 CharacterOffsetEnd=57 PartOfSpeech=NNS Lemma=scandal NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (JJ Chinese) (NN food) (NN industry))
+    (VP (VBZ is)
+      (ADVP (RB regularly))
+      (VP (VBN shaken)
+        (PP (IN by)
+          (NP (NNS scandals)))))
+    (. .)))
+
+root(ROOT-0, shaken-7)
+det(industry-4, The-1)
+amod(industry-4, Chinese-2)
+compound(industry-4, food-3)
+nsubjpass(shaken-7, industry-4)
+auxpass(shaken-7, is-5)
+advmod(shaken-7, regularly-6)
+case(scandals-9, by-8)
+nmod:agent(shaken-7, scandals-9)
+punct(shaken-7, .-10)
+
+Sentence #2 (27 tokens):
+For example, people here often talk of restaurants using “gutter oil,” or illegally recycled oil that is dirty and can contain carcinogens.
+[Text=For CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=example CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=NN Lemma=example NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=here CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=RB Lemma=here NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=talk CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN Lemma=talk NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=restaurants CharacterOffsetBegin=98 CharacterOffsetEnd=109 PartOfSpeech=NNS Lemma=restaurant NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=gutter CharacterOffsetBegin=117 CharacterOffsetEnd=123 PartOfSpeech=NN Lemma=gutter NamedEntityTag=O]
+[Text=oil CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=NN Lemma=oil NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=illegally CharacterOffsetBegin=133 CharacterOffsetEnd=142 PartOfSpeech=RB Lemma=illegally NamedEntityTag=O]
+[Text=recycled CharacterOffsetBegin=143 CharacterOffsetEnd=151 PartOfSpeech=JJ Lemma=recycled NamedEntityTag=O]
+[Text=oil CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=NN Lemma=oil NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=dirty CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=JJ Lemma=dirty NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=contain CharacterOffsetBegin=178 CharacterOffsetEnd=185 PartOfSpeech=VB Lemma=contain NamedEntityTag=O]
+[Text=carcinogens CharacterOffsetBegin=186 CharacterOffsetEnd=197 PartOfSpeech=NNS Lemma=carcinogen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP
+      (NP (NNS people))
+      (ADVP (RB here) (RB often)))
+    (VP (NN talk)
+      (PP (IN of)
+        (NP
+          (NP (NNS restaurants))
+          (VP (VBG using)
+            (NP
+              (NP (`` ``) (NN gutter) (NN oil) (, ,) ('' ''))
+              (CC or)
+              (ADVP (RB illegally))
+              (NP
+                (NP (JJ recycled) (NN oil))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP
+                      (VP (VBZ is)
+                        (ADJP (JJ dirty)))
+                      (CC and)
+                      (VP (MD can)
+                        (VP (VB contain)
+                          (NP (NNS carcinogens)))))))))))))
+    (. .)))
+
+root(ROOT-0, talk-7)
+case(example-2, For-1)
+nmod:for(talk-7, example-2)
+punct(talk-7, ,-3)
+nsubj(talk-7, people-4)
+advmod(often-6, here-5)
+advmod(people-4, often-6)
+case(restaurants-9, of-8)
+nmod:of(talk-7, restaurants-9)
+acl(restaurants-9, using-10)
+punct(oil-13, ``-11)
+compound(oil-13, gutter-12)
+dobj(using-10, oil-13)
+punct(oil-13, ,-14)
+punct(oil-13, ''-15)
+cc(oil-13, or-16)
+advmod(oil-19, illegally-17)
+amod(oil-19, recycled-18)
+conj:or(oil-13, oil-19)
+nsubj(dirty-22, that-20)
+cop(dirty-22, is-21)
+acl:relcl(oil-19, dirty-22)
+cc(dirty-22, and-23)
+aux(contain-25, can-24)
+conj:and(dirty-22, contain-25)
+dobj(contain-25, carcinogens-26)
+punct(talk-7, .-27)
+
+Sentence #1 (30 tokens):
+In 2014, the Taiwanese police raided a factory in southern Taiwan that was accused of producing hundreds of tons of oil recycled from restaurant waste and slaughterhouse byproducts.
+[Text=In CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=2014 CharacterOffsetBegin=3 CharacterOffsetEnd=7 PartOfSpeech=CD Lemma=2014 NamedEntityTag=DATE NormalizedNamedEntityTag=2014 Timex=<TIMEX3 tid="t1" type="DATE" value="2014">2014</TIMEX3>]
+[Text=, CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Taiwanese CharacterOffsetBegin=13 CharacterOffsetEnd=22 PartOfSpeech=JJ Lemma=taiwanese NamedEntityTag=MISC]
+[Text=police CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN Lemma=police NamedEntityTag=O]
+[Text=raided CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=VBD Lemma=raid NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=factory CharacterOffsetBegin=39 CharacterOffsetEnd=46 PartOfSpeech=NN Lemma=factory NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=southern CharacterOffsetBegin=50 CharacterOffsetEnd=58 PartOfSpeech=JJ Lemma=southern NamedEntityTag=O]
+[Text=Taiwan CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=NNP Lemma=Taiwan NamedEntityTag=LOCATION]
+[Text=that CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=accused CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=VBN Lemma=accuse NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=producing CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=VBG Lemma=produce NamedEntityTag=O]
+[Text=hundreds CharacterOffsetBegin=96 CharacterOffsetEnd=104 PartOfSpeech=NNS Lemma=hundred NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=tons CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=NNS Lemma=ton NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=oil CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=NN Lemma=oil NamedEntityTag=O]
+[Text=recycled CharacterOffsetBegin=120 CharacterOffsetEnd=128 PartOfSpeech=VBN Lemma=recycle NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=restaurant CharacterOffsetBegin=134 CharacterOffsetEnd=144 PartOfSpeech=NN Lemma=restaurant NamedEntityTag=O]
+[Text=waste CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=waste NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=slaughterhouse CharacterOffsetBegin=155 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=slaughterhouse NamedEntityTag=O]
+[Text=byproducts CharacterOffsetBegin=170 CharacterOffsetEnd=180 PartOfSpeech=NNS Lemma=byproduct NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 2014)))
+    (, ,)
+    (NP (DT the) (JJ Taiwanese) (NN police))
+    (VP (VBD raided)
+      (NP
+        (NP (DT a) (NN factory))
+        (PP (IN in)
+          (NP (JJ southern) (NNP Taiwan)))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD was)
+              (VP (VBN accused)
+                (PP (IN of)
+                  (S
+                    (VP (VBG producing)
+                      (NP
+                        (NP (NNS hundreds))
+                        (PP (IN of)
+                          (NP
+                            (NP (NNS tons))
+                            (PP (IN of)
+                              (NP
+                                (NP (NN oil))
+                                (VP (VBN recycled)
+                                  (PP (IN from)
+                                    (NP (NN restaurant) (NN waste)
+                                      (CC and)
+                                      (NN slaughterhouse) (NNS byproducts))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, raided-7)
+case(2014-2, In-1)
+nmod:in(raided-7, 2014-2)
+punct(raided-7, ,-3)
+det(police-6, the-4)
+amod(police-6, Taiwanese-5)
+nsubj(raided-7, police-6)
+det(factory-9, a-8)
+dobj(raided-7, factory-9)
+case(Taiwan-12, in-10)
+amod(Taiwan-12, southern-11)
+nmod:in(factory-9, Taiwan-12)
+nsubjpass(accused-15, that-13)
+auxpass(accused-15, was-14)
+acl:relcl(factory-9, accused-15)
+mark(producing-17, of-16)
+advcl(accused-15, producing-17)
+dobj(producing-17, hundreds-18)
+case(tons-20, of-19)
+nmod:of(hundreds-18, tons-20)
+case(oil-22, of-21)
+nmod:of(tons-20, oil-22)
+acl(oil-22, recycled-23)
+case(waste-26, from-24)
+compound(waste-26, restaurant-25)
+nmod:from(recycled-23, waste-26)
+cc(waste-26, and-27)
+compound(byproducts-29, slaughterhouse-28)
+conj:and(waste-26, byproducts-29)
+punct(raided-7, .-30)
+
+Sentence #2 (30 tokens):
+Regulators investigated whether the oil had been shipped to mainland China, Hong Kong and Macau, where it may have been used in a wide range of cooking.
+[Text=Regulators CharacterOffsetBegin=182 CharacterOffsetEnd=192 PartOfSpeech=NNS Lemma=regulator NamedEntityTag=O]
+[Text=investigated CharacterOffsetBegin=193 CharacterOffsetEnd=205 PartOfSpeech=VBD Lemma=investigate NamedEntityTag=O]
+[Text=whether CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=IN Lemma=whether NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=oil CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=oil NamedEntityTag=O]
+[Text=had CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=shipped CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=VBN Lemma=ship NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=mainland CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=NN Lemma=mainland NamedEntityTag=O]
+[Text=China CharacterOffsetBegin=251 CharacterOffsetEnd=256 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Hong CharacterOffsetBegin=258 CharacterOffsetEnd=262 PartOfSpeech=NNP Lemma=Hong NamedEntityTag=LOCATION]
+[Text=Kong CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=NNP Lemma=Kong NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Macau CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NNP Lemma=Macau NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=wide CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=JJ Lemma=wide NamedEntityTag=O]
+[Text=range CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=NN Lemma=range NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=cooking CharacterOffsetBegin=326 CharacterOffsetEnd=333 PartOfSpeech=NN Lemma=cooking NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNS Regulators))
+    (VP (VBD investigated)
+      (SBAR (IN whether)
+        (S
+          (NP (DT the) (NN oil))
+          (VP (VBD had)
+            (VP (VBN been)
+              (VP (VBN shipped)
+                (PP (TO to)
+                  (NP (NN mainland)))
+                (NP-TMP
+                  (NP (NNP China) (, ,) (NNP Hong) (NNP Kong)
+                    (CC and)
+                    (NNP Macau))
+                  (, ,)
+                  (SBAR
+                    (WHADVP (WRB where))
+                    (S
+                      (NP (PRP it))
+                      (VP (MD may)
+                        (VP (VB have)
+                          (VP (VBN been)
+                            (VP (VBN used)
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT a) (JJ wide) (NN range))
+                                  (PP (IN of)
+                                    (NP (NN cooking))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, investigated-2)
+nsubj(investigated-2, Regulators-1)
+mark(shipped-8, whether-3)
+det(oil-5, the-4)
+nsubjpass(shipped-8, oil-5)
+aux(shipped-8, had-6)
+auxpass(shipped-8, been-7)
+ccomp(investigated-2, shipped-8)
+case(mainland-10, to-9)
+nmod:to(shipped-8, mainland-10)
+compound(Kong-14, China-11)
+punct(Kong-14, ,-12)
+conj:and(Kong-14, Hong-13)
+nmod:tmod(shipped-8, Kong-14)
+cc(Kong-14, and-15)
+conj:and(Kong-14, Macau-16)
+punct(Kong-14, ,-17)
+advmod(used-23, where-18)
+nsubjpass(used-23, it-19)
+aux(used-23, may-20)
+aux(used-23, have-21)
+auxpass(used-23, been-22)
+acl:relcl(Kong-14, used-23)
+case(range-27, in-24)
+det(range-27, a-25)
+amod(range-27, wide-26)
+nmod:in(used-23, range-27)
+case(cooking-29, of-28)
+nmod:of(range-27, cooking-29)
+punct(investigated-2, .-30)
+
+Coreference set:
+	(1,22,[22,30]) -> (2,5,[4,6]), that is: "oil recycled from restaurant waste and slaughterhouse byproducts" -> "the oil"
+	(2,19,[19,20]) -> (2,5,[4,6]), that is: "it" -> "the oil"
+Sentence #1 (12 tokens):
+China has a long and complicated history with the opium poppy.
+[Text=China CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION]
+[Text=has CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=long CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=JJ Lemma=long NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=complicated CharacterOffsetBegin=21 CharacterOffsetEnd=32 PartOfSpeech=JJ Lemma=complicated NamedEntityTag=O]
+[Text=history CharacterOffsetBegin=33 CharacterOffsetEnd=40 PartOfSpeech=NN Lemma=history NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=opium CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NN Lemma=opium NamedEntityTag=O]
+[Text=poppy CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN Lemma=poppy NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP China))
+    (VP (VBZ has)
+      (NP
+        (NP (DT a)
+          (ADJP (JJ long)
+            (CC and)
+            (JJ complicated))
+          (NN history))
+        (PP (IN with)
+          (NP (DT the) (NN opium) (NN poppy)))))
+    (. .)))
+
+root(ROOT-0, has-2)
+nsubj(has-2, China-1)
+det(history-7, a-3)
+amod(history-7, long-4)
+cc(long-4, and-5)
+conj:and(long-4, complicated-6)
+dobj(has-2, history-7)
+case(poppy-11, with-8)
+det(poppy-11, the-9)
+compound(poppy-11, opium-10)
+nmod:with(history-7, poppy-11)
+punct(has-2, .-12)
+
+Sentence #2 (20 tokens):
+In the 18th and 19th centuries, Qing emperors issued orders to try to ban the import of opium.
+[Text=In CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=18th CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=JJ Lemma=18th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=18.0]
+[Text=and CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CC Lemma=and NamedEntityTag=DATE NormalizedNamedEntityTag=P100Y-#19 Timex=<TIMEX3 alt_value="P100Y-#19" tid="t1" type="DATE">and 19th centuries</TIMEX3>]
+[Text=19th CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=JJ Lemma=19th NamedEntityTag=DATE NormalizedNamedEntityTag=P100Y-#19 Timex=<TIMEX3 alt_value="P100Y-#19" tid="t1" type="DATE">and 19th centuries</TIMEX3>]
+[Text=centuries CharacterOffsetBegin=84 CharacterOffsetEnd=93 PartOfSpeech=NNS Lemma=century NamedEntityTag=DATE NormalizedNamedEntityTag=P100Y-#19 Timex=<TIMEX3 alt_value="P100Y-#19" tid="t1" type="DATE">and 19th centuries</TIMEX3>]
+[Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Qing CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=JJ Lemma=qing NamedEntityTag=O]
+[Text=emperors CharacterOffsetBegin=100 CharacterOffsetEnd=108 PartOfSpeech=NNS Lemma=emperor NamedEntityTag=O]
+[Text=issued CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=VBN Lemma=issue NamedEntityTag=O]
+[Text=orders CharacterOffsetBegin=116 CharacterOffsetEnd=122 PartOfSpeech=NNS Lemma=order NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=try CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=VB Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=ban CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=VB Lemma=ban NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=import CharacterOffsetBegin=141 CharacterOffsetEnd=147 PartOfSpeech=NN Lemma=import NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=opium CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=NN Lemma=opium NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ 18th)
+        (CC and)
+        (JJ 19th) (NNS centuries)))
+    (, ,)
+    (NP (JJ Qing) (NNS emperors))
+    (VP (VBN issued)
+      (S
+        (NP (NNS orders))
+        (VP (TO to)
+          (VP (VB try)
+            (S
+              (VP (TO to)
+                (VP (VB ban)
+                  (NP
+                    (NP (DT the) (NN import))
+                    (PP (IN of)
+                      (NP (NN opium)))))))))))
+    (. .)))
+
+root(ROOT-0, issued-10)
+case(centuries-6, In-1)
+det(centuries-6, the-2)
+amod(centuries-6, 18th-3)
+cc(18th-3, and-4)
+conj:and(18th-3, 19th-5)
+nmod:in(issued-10, centuries-6)
+punct(issued-10, ,-7)
+amod(emperors-9, Qing-8)
+nsubj(issued-10, emperors-9)
+dobj(issued-10, orders-11)
+mark(try-13, to-12)
+xcomp(issued-10, try-13)
+mark(ban-15, to-14)
+xcomp(try-13, ban-15)
+det(import-17, the-16)
+dobj(ban-15, import-17)
+case(opium-19, of-18)
+nmod:of(import-17, opium-19)
+punct(issued-10, .-20)
+
+Sentence #3 (24 tokens):
+Britain, the main exporter to China, fought two wars with the Qing in the 19th century to keep the trade flowing.
+[Text=Britain CharacterOffsetBegin=158 CharacterOffsetEnd=165 PartOfSpeech=NNP Lemma=Britain NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=main CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=JJ Lemma=main NamedEntityTag=O]
+[Text=exporter CharacterOffsetBegin=176 CharacterOffsetEnd=184 PartOfSpeech=NN Lemma=exporter NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=China CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=fought CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=VBD Lemma=fight NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=wars CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=NNS Lemma=war NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Qing CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NN Lemma=qing NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=18XX Timex=<TIMEX3 tid="t2" type="DATE" value="18XX">the 19th century</TIMEX3>]
+[Text=19th CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=JJ Lemma=19th NamedEntityTag=DATE NormalizedNamedEntityTag=18XX Timex=<TIMEX3 tid="t2" type="DATE" value="18XX">the 19th century</TIMEX3>]
+[Text=century CharacterOffsetBegin=237 CharacterOffsetEnd=244 PartOfSpeech=NN Lemma=century NamedEntityTag=DATE NormalizedNamedEntityTag=18XX Timex=<TIMEX3 tid="t2" type="DATE" value="18XX">the 19th century</TIMEX3>]
+[Text=to CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=keep CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=VB Lemma=keep NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=trade CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=NN Lemma=trade NamedEntityTag=O]
+[Text=flowing CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=VBG Lemma=flow NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Britain))
+      (, ,)
+      (NP
+        (NP (DT the) (JJ main) (NN exporter))
+        (PP (TO to)
+          (NP (NNP China))))
+      (, ,))
+    (VP (VBD fought)
+      (NP (CD two) (NNS wars))
+      (PP (IN with)
+        (NP
+          (NP (DT the) (NN Qing))
+          (PP (IN in)
+            (NP (DT the) (JJ 19th) (NN century)))))
+      (S
+        (VP (TO to)
+          (VP (VB keep)
+            (NP (DT the) (NN trade) (VBG flowing))))))
+    (. .)))
+
+root(ROOT-0, fought-9)
+nsubj(fought-9, Britain-1)
+punct(Britain-1, ,-2)
+det(exporter-5, the-3)
+amod(exporter-5, main-4)
+appos(Britain-1, exporter-5)
+case(China-7, to-6)
+nmod:to(exporter-5, China-7)
+punct(Britain-1, ,-8)
+nummod(wars-11, two-10)
+dobj(fought-9, wars-11)
+case(Qing-14, with-12)
+det(Qing-14, the-13)
+nmod:with(fought-9, Qing-14)
+case(century-18, in-15)
+det(century-18, the-16)
+amod(century-18, 19th-17)
+nmod:in(Qing-14, century-18)
+mark(keep-20, to-19)
+advcl(fought-9, keep-20)
+det(trade-22, the-21)
+dobj(keep-20, trade-22)
+amod(trade-22, flowing-23)
+punct(fought-9, .-24)
+
+Coreference set:
+	(3,7,[7,8]) -> (1,1,[1,2]), that is: "China" -> "China"
+Sentence #1 (23 tokens):
+In the early 20th century, Britain agreed to end exports to China, and Chinese rulers vowed to halt domestic production.
+[Text=In CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3 CharacterOffsetEnd=6 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=19XX Timex=<TIMEX3 mod="EARLY" tid="t1" type="DATE" value="19XX">the early 20th century</TIMEX3>]
+[Text=early CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=JJ Lemma=early NamedEntityTag=DATE NormalizedNamedEntityTag=19XX Timex=<TIMEX3 mod="EARLY" tid="t1" type="DATE" value="19XX">the early 20th century</TIMEX3>]
+[Text=20th CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=JJ Lemma=20th NamedEntityTag=DATE NormalizedNamedEntityTag=19XX Timex=<TIMEX3 mod="EARLY" tid="t1" type="DATE" value="19XX">the early 20th century</TIMEX3>]
+[Text=century CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NN Lemma=century NamedEntityTag=DATE NormalizedNamedEntityTag=19XX Timex=<TIMEX3 mod="EARLY" tid="t1" type="DATE" value="19XX">the early 20th century</TIMEX3>]
+[Text=, CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Britain CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=NNP Lemma=Britain NamedEntityTag=LOCATION]
+[Text=agreed CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=VBD Lemma=agree NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VB Lemma=end NamedEntityTag=O]
+[Text=exports CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=NNS Lemma=export NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=China CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NNP Lemma=China NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Chinese CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=JJ Lemma=chinese NamedEntityTag=MISC]
+[Text=rulers CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=NNS Lemma=ruler NamedEntityTag=O]
+[Text=vowed CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=VBD Lemma=vow NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=halt CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=VB Lemma=halt NamedEntityTag=O]
+[Text=domestic CharacterOffsetBegin=100 CharacterOffsetEnd=108 PartOfSpeech=JJ Lemma=domestic NamedEntityTag=O]
+[Text=production CharacterOffsetBegin=109 CharacterOffsetEnd=119 PartOfSpeech=NN Lemma=production NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ early) (JJ 20th) (NN century)))
+    (, ,)
+    (S
+      (NP (NNP Britain))
+      (VP (VBD agreed)
+        (S
+          (VP (TO to)
+            (VP (VB end)
+              (NP (NNS exports))
+              (PP (TO to)
+                (NP (NNP China))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ Chinese) (NNS rulers))
+      (VP (VBD vowed)
+        (S
+          (VP (TO to)
+            (VP (VB halt)
+              (NP (JJ domestic) (NN production)))))))
+    (. .)))
+
+root(ROOT-0, agreed-8)
+case(century-5, In-1)
+det(century-5, the-2)
+amod(century-5, early-3)
+amod(century-5, 20th-4)
+nmod:in(agreed-8, century-5)
+punct(agreed-8, ,-6)
+nsubj(agreed-8, Britain-7)
+mark(end-10, to-9)
+xcomp(agreed-8, end-10)
+dobj(end-10, exports-11)
+case(China-13, to-12)
+nmod:to(end-10, China-13)
+punct(agreed-8, ,-14)
+cc(agreed-8, and-15)
+amod(rulers-17, Chinese-16)
+nsubj(vowed-18, rulers-17)
+conj:and(agreed-8, vowed-18)
+mark(halt-20, to-19)
+xcomp(vowed-18, halt-20)
+amod(production-22, domestic-21)
+dobj(halt-20, production-22)
+punct(agreed-8, .-23)
+
+Sentence #2 (36 tokens):
+But opium became widespread again after the fall of the Qing Empire, and opium taxes became a source of revenue for warlords, provincial governments and leaders of the warring Kuomintang and Communist parties.
+[Text=But CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=opium CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NN Lemma=opium NamedEntityTag=O]
+[Text=became CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=VBD Lemma=become NamedEntityTag=O]
+[Text=widespread CharacterOffsetBegin=138 CharacterOffsetEnd=148 PartOfSpeech=JJ Lemma=widespread NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fall CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=fall NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-FA Timex=<TIMEX3 tid="t2" type="DATE" value="XXXX-FA">fall</TIMEX3>]
+[Text=of CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Qing CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Qing NamedEntityTag=O]
+[Text=Empire CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=NNP Lemma=Empire NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=opium CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=NN Lemma=opium NamedEntityTag=O]
+[Text=taxes CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NNS Lemma=tax NamedEntityTag=O]
+[Text=became CharacterOffsetBegin=206 CharacterOffsetEnd=212 PartOfSpeech=VBD Lemma=become NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=source CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=source NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=revenue CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=NN Lemma=revenue NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=warlords CharacterOffsetBegin=237 CharacterOffsetEnd=245 PartOfSpeech=NNS Lemma=warlord NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=provincial CharacterOffsetBegin=247 CharacterOffsetEnd=257 PartOfSpeech=JJ Lemma=provincial NamedEntityTag=O]
+[Text=governments CharacterOffsetBegin=258 CharacterOffsetEnd=269 PartOfSpeech=NNS Lemma=government NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=leaders CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=NNS Lemma=leader NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=warring CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=VBG Lemma=war NamedEntityTag=O]
+[Text=Kuomintang CharacterOffsetBegin=297 CharacterOffsetEnd=307 PartOfSpeech=NNP Lemma=Kuomintang NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Communist CharacterOffsetBegin=312 CharacterOffsetEnd=321 PartOfSpeech=NNP Lemma=Communist NamedEntityTag=MISC]
+[Text=parties CharacterOffsetBegin=322 CharacterOffsetEnd=329 PartOfSpeech=NNS Lemma=party NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (S
+      (NP (NN opium))
+      (VP (VBD became)
+        (ADJP (JJ widespread))
+        (ADVP (RB again))
+        (PP (IN after)
+          (NP
+            (NP (DT the) (NN fall))
+            (PP (IN of)
+              (NP (DT the) (NNP Qing) (NNP Empire)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NN opium) (NNS taxes))
+      (VP (VBD became)
+        (NP
+          (NP (DT a) (NN source))
+          (PP (IN of)
+            (NP (NN revenue))))
+        (PP (IN for)
+          (NP
+            (NP (NNS warlords))
+            (, ,)
+            (NP
+              (NP (JJ provincial) (NNS governments)
+                (CC and)
+                (NNS leaders))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (VBG warring) (NNP Kuomintang))
+                  (CC and)
+                  (NP (NNP Communist) (NNS parties)))))))))
+    (. .)))
+
+root(ROOT-0, became-3)
+cc(became-3, But-1)
+nsubj(became-3, opium-2)
+xcomp(became-3, widespread-4)
+advmod(became-3, again-5)
+case(fall-8, after-6)
+det(fall-8, the-7)
+nmod:after(became-3, fall-8)
+case(Empire-12, of-9)
+det(Empire-12, the-10)
+compound(Empire-12, Qing-11)
+nmod:of(fall-8, Empire-12)
+punct(became-3, ,-13)
+cc(became-3, and-14)
+compound(taxes-16, opium-15)
+nsubj(became-17, taxes-16)
+conj:but(became-3, became-17)
+det(source-19, a-18)
+xcomp(became-17, source-19)
+case(revenue-21, of-20)
+nmod:of(source-19, revenue-21)
+case(warlords-23, for-22)
+nmod:for(became-17, warlords-23)
+punct(warlords-23, ,-24)
+amod(governments-26, provincial-25)
+appos(warlords-23, governments-26)
+cc(governments-26, and-27)
+conj:and(governments-26, leaders-28)
+case(Kuomintang-32, of-29)
+det(Kuomintang-32, the-30)
+amod(Kuomintang-32, warring-31)
+nmod:of(governments-26, Kuomintang-32)
+cc(Kuomintang-32, and-33)
+compound(parties-35, Communist-34)
+conj:and(Kuomintang-32, parties-35)
+punct(became-3, .-36)
+

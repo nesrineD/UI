@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!-- This file was written by the JAVA GraphML Library. -->  
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"   
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+           http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd"  
+         xmlns:y="http://www.yworks.com/xml/graphml">  
+  <key id="d0" for="node" yfiles.type="nodegraphics"/>  
+  <key id="d1" for="edge" yfiles.type="edgegraphics"/>  
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">pile</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1"/>
+    </node>
+    <node id="n1">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">brick</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1"/>
+    </node>
+    <node id="n2">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">cat</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1"/>
+    </node>
+    <node id="n3">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">jump</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1"/>
+    </node>
+    <node id="n4">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:NodeLabel visible="true" autoSizePolicy="content">black</y:NodeLabel>
+        </y:ShapeNode>
+      </data>
+      <data key="d1"/>
+    </node>
+    <edge id="e0" source="n1" target="n2" />
+    <edge id="e1" source="n2" target="n3" />
+    <edge id="e2" source="n3" target="n4" />
+    <edge id="e3" source="n0" target="n1" />
+  </graph>
+</graphml>
